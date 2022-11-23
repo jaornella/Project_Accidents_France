@@ -2,24 +2,24 @@
 
 ## Fase 1: (TODOS los colaboradores)
 
-Crear la BD AccidentesFrancia
+1- Crear la BD AccidentesFrancia
 
-Importar las tablas al esquema dbo
+2- Importar las tablas al esquema dbo
 	- dbo.caracterists
 	- dbo.places
 	- dbo.vehicles
 
-Crear dos esquemas
+3- Crear dos esquemas
 	- stage
 	- export
 
-Crearle índices a las tablas importadas por el campo que identifica
+4- Crearle índices a las tablas importadas por el campo que identifica
 a los accidentes.
 
 
 
 
-Fase 2: (Por equipos)
+## Fase 2: (Por equipos)
 	* Hacer las stage de:
 		- tabla "users" resultando -> [stage].[users]
 		- tabla "vehicles" resultando -> [stage].[vehicles]
@@ -38,7 +38,7 @@ Una vez concluida la fase 2 cada uno deberá de tener los scripts de cada proced
 y ser capaz de correr satisfactoriamente
 el procedimiento: load_stage
 
-Fase 3: (Por equipos)
+## Fase 3: (Por equipos)
 	* Hacer las tablas exports:
 		- [export].[accidents_france]
 		- [export].[detalil_acc]
