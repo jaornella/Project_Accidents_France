@@ -1,0 +1,19 @@
+
+* En esta fase no es imprescindible que suban nada. Lo importante es que hagan las tareas en su management studio y tengan
+		la base de datos con los datos importados y los esquemas e índices creados.
+
+* Las tareas de estas fase son:
+
+		1- Crear la BD AccidentesFrancia
+
+		2- Importar las tablas al esquema dbo - dbo.caracterists - dbo.places - dbo.vehicles
+
+		3- Crear dos esquemas - stage - export
+
+		4- Crearle índices a las tablas importadas por el campo que identifica a los accidentes.
+
+
+* Si cada uno quiere subir algún fichero con los comandos de crear la base de datos, los esquemas y los índices lo puede hacer.
+		De todas formas, recuerden que estas tareas se pueden lograr haciendo click (o sea, sin usar comandos)
+
+* Cuando cada uno termine esta fase, me informa por correo.
