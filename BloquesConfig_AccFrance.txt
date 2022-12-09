@@ -26,5 +26,4 @@ jdbc
 						[caract.Lum], [caract.Lum_text], [caract.Localization], [caract.Localization_text], [caract.Intersection], [caract.Intersection_text], [caract.AtmCondition], [caract.AtmCondition_text], [caract.Colision], [caract.Colision_text], [caract.GpsCoding], [caract.GpsCoding_text], [caract.Latitud], [caract.Longitud], [caract.Adress], [place.CategoryRoad], [place.CategoryRoad_text], [place.RoadNumber], [place.SurfaceCondition], [place.SurfaceCondition_text], [place.DevelopmentInfrastructure], [place.DevelopmentInfrastructure_text], [place.SituationoftheAccident], [place.SituationoftheAccident_text], [place.TotalLanes], [place.ReservedLane], [place.ReservedLane_text], [place.DrawingPlan],[place.DrawingPlan_text], [place.GradientRoad],[place.GradientRoad_text]
 						from export.detalil_acc	"
 					add_field => ["discriminador", "detalil_acc"]
-					#jdbc_default_timezone => "Europe/Madrid"
 				}
