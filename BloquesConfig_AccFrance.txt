@@ -5,7 +5,7 @@ jdbc
   		{
   			jdbc_driver_library => "/Users/jose_angel/data_analysis_course_GitHub/Kibana/logstash/sqljdbc_10.2/enu/mssql-jdbc-10.2.0.jre11.jar"
   			jdbc_driver_class => "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-  			jdbc_connection_string => "jdbc:sqlserver://10.0.0.9;encrypt=false;sslProtocol=TLS;databaseName=AccidentesFrancia"
+  			jdbc_connection_string => "jdbc:sqlserver://127.0.0.1;encrypt=false;sslProtocol=TLS;databaseName=AccidentesFrancia"
   			jdbc_user => "Logstash"
   			jdbc_password => "log"
   			statement => "select [AccidentId], [Year], [Month], [Day], [HH:MM:SS], [Date], DATEADD(hh, DATEDIFF(hh, GETDATE(), GETUTCDATE()), [caract.datetime]) as [caract.datetime], [caract.Lum], [caract.Lum_text], [caract.Localization], [caract.Localization_text], [caract.Intersection], [caract.Intersection_text], [caract.AtmCondition], [caract.AtmCondition_text], [caract.Colision], [caract.Colision_text], [caract.GpsCoding], [caract.GpsCoding_text], [caract.Latitud], [caract.Longitud], [caract.Adress],[place.CategoryRoad], [place.CategoryRoad_text], [place.RoadNumber], [place.SurfaceCondition],[place.SurfaceCondition_text],[place.DevelopmentInfrastructure],[place.DevelopmentInfrastructure_text],[place.SituationoftheAccident],[place.SituationoftheAccident_text],[place.TotalLanes],[place.ReservedLane],[place.ReservedLane_text], [place.DrawingPlan], [place.DrawingPlan_text], [place.GradientRoad], [place.GradientRoad_text]
@@ -17,7 +17,7 @@ jdbc
 				{
 					jdbc_driver_library => "/Users/jose_angel/data_analysis_course_GitHub/Kibana/logstash/sqljdbc_10.2/enu/mssql-jdbc-10.2.0.jre11.jar"
 					jdbc_driver_class => "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-					jdbc_connection_string => "jdbc:sqlserver://10.0.0.9;encrypt=false;sslProtocol=TLS;databaseName=AccidentesFrancia"
+					jdbc_connection_string => "jdbc:sqlserver://127.0.0.1;encrypt=false;sslProtocol=TLS;databaseName=AccidentesFrancia"
 					jdbc_user => "Logstash"
 					jdbc_password => "log"
 					statement => "select
